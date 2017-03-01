@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改信息</title>
+    <link rel="stylesheet" href="..\CSS\style.css">
+</head>
+<body>
+     <header class="pg-head pg-head-2">
+        <span><img src="..\images\qnxg.svg" alt="千年弦歌" width="auto" height="40px"></span>
+        <span>通讯录</span>
+        <span id="research"><a href="#">查找联系人</a></span>
+        <span id="research-img"><a href="#"><img src="..\images\search.png" alt="搜索" height="40px" width="auto"></a></span>
+    </header>
+    <main class="pg-main">
+        <div class="space"></div>
+        <header class="inf-head"><span>个人信息</span></header>
+        <form>
+            <span class="inf-content">
+                <header>基本信息</header>
+                <div> 
+                    <label>姓名<input type="text" readonly="true"></label>
+                </div> 
+                <div>
+                    <label>职位<input type="text" readonly="true"></label>
+                </div>
+                <div>
+                    <label>电话<input type="text"></label>
+                </div>
+            </span>
+            <span class="inf-content">
+                <header>社交信息</header>
+                <div> 
+                    <label>QQ<input type="text"></label>
+                </div> 
+                <div>
+                    <label>邮箱<input type="text"></label>
+                </div>
+            </span>
+            <span class="inf-content">
+                <header>其他信息</header>
+                <div> 
+                    <label>学院
+                        <select id="academy">
+                            <option value="0" selected="true">请选择</option>
+                        </select>
+                    </label>
+                </div> 
+                <div> 
+                    <label>专业<input type="text"></label>
+                </div> 
+                <div>
+                    <label>学号<input type="text"></label>
+                </div>
+                <div>
+                    <label>寝室<input type="text"></label>
+                </div>
+            </span>
+            <footer class="inf-foot">
+                <input type="submit" value="保存" class="big-bt big-bt-1">
+            </footer>
+        </form>
+    </main>
+    <footer class="pg-foot">
+        <div><img src="..\images\qnxg.svg" alt="千年弦歌" width="auto" height="40px"></div>
+        <div><a href="#">1000.hnu.cn</a></div>
+        <div>
+            <span><a href="#">弦歌主站</a></span>
+            <span><a href="#">后台系统</a></span>
+            <span><a href="#">湖大文库</a></span>
+            <span><a href="#">加入我们</a></span>
+        </div>
+    </footer>
+</body>
+</html>

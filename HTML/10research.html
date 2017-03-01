@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>成员搜索</title>
+    <link rel="stylesheet" href="..\CSS\style.css">
+</head>
+<body>
+    <header class="pg-head pg-head-2">
+        <span><img src="..\images\qnxg.svg" alt="千年弦歌" width="auto" height="40px"></span>
+        <span>通讯录</span>
+        <span id="research"><a href="#">查找联系人</a></span>
+    </header>
+    <main class="pg-main">
+        <section>
+            <header class="inf-head"><span>成员搜索</span></header>
+            <form action="#" class="inf-content">
+                <input type="text" id="re-text">
+                <input type="submit" class="big-bt big-bt-1" value="搜索">
+            </form>
+        </section>
+        <section>
+            <form action="#">
+                <header class="inf-head"><span>成员索引</span></header>
+                <span class="inf-content inf-content-re">
+                    <header>按角色</header>
+                    <main class="re-pj">
+                        <input type="radio" name="role" value="teacher" id="teacher" class="re-radio">
+                        <label for="teacher" class="chb-label">老师</label><br>
+                        <input type="radio" name="role" value="counselor" id="counselor" class="re-radio">
+                        <label for="counselor" class="chb-label">顾问</label><br>
+                        <input type="radio" name="role" value="manager" id="manager" class="re-radio">
+                        <label for="manager" class="chb-label">行政</label><br>
+                        <input type="radio" name="role" value="operator" id="operator" class="re-radio">
+                        <label for="operator" class="chb-label">运营</label><br>
+                        <input type="radio" name="role" value="writer" id="writer" class="re-radio">
+                        <label for="writer" class="chb-label">编辑</label><br>
+                        <input type="radio" name="role" value="designer" id="designer" class="re-radio">
+                        <label for="designer" class="chb-label">设计师</label><br>
+                        <input type="radio" name="role" value="programmer" id="programmer" class="re-radio">
+                        <label for="programmer" class="chb-label">程序员</label><br>
+                        <input type="radio" name="role" value="all1" id="all1" class="re-radio">
+                        <label for="all1" class="chb-label">全部</label><br>
+                    </main>
+                </span>
+                <span class="inf-content inf-content-re">
+                    <header>按性别</header>
+                    <main class="re-pj">
+                        <input type="radio" name="sex" value="man" id="man" class="re-radio">
+                        <label for="man" class="chb-label">男</label><br>
+                        <input type="radio" name="sex" value="woman" id="woman" class="re-radio">
+                        <label for="woman" class="chb-label">女</label><br>
+                        <input type="radio" name="sex" value="all2" id="all2" class="re-radio">
+                        <label for="all2" class="chb-label">全部</label><br>
+                    </main>
+                </span>
+                <span class="inf-content inf-content-re">
+                    <header>按年级</header>
+                    <main class="re-pj">
+                        <input type="radio" name="year" id="2011" value="2011" class="re-radio">
+                        <label for="2011" class="chb-label">2011</label><br>
+                        <input type="radio" name="year" id="2012" value="2012" class="re-radio">
+                        <label for="2012" class="chb-label">2012</label><br>
+                        <input type="radio" name="year" id="2013" value="2013" class="re-radio">
+                        <label for="2013" class="chb-label">2013</label><br>
+                        <input type="radio" name="year" id="2014" value="2014" class="re-radio">
+                        <label for="2014" class="chb-label">2014</label><br>
+                        <input type="radio" name="year" id="2015" value="2015" class="re-radio">
+                        <label for="2015" class="chb-label">2015</label><br>
+                        <input type="radio" name="year" value="all3" id="all3" class="re-radio">
+                        <label for="all3" class="chb-label">全部</label><br>
+                    </main>
+                </span>
+                <span class="inf-content inf-content-re" id="re-academy">
+                    <header>按院系</header>
+                    <main class="re-pj">
+                        <input type="radio" name="academy" value="dianqi" id="dianqi" class="re-radio">
+                        <label for="dianqi" class="chb-label">电气院</label>
+                        <input type="radio" name="academy" value="jixie" id="jixie" class="re-radio">
+                        <label for="jixie" class="chb-label">机械院</label>
+                        <input type="radio" name="academy" value="huagong" id="huagong" class="re-radio">
+                        <label for="huagong" class="chb-label">化工院</label>
+                        <input type="radio" name="academy" value="shengwu" id="shengwu" class="re-radio">
+                        <label for="shengwu" class="chb-label">生物院</label>
+                        <input type="radio" name="academy" value="jianzhu" id="jianzhu" class="re-radio">
+                        <label for="jianzhu" class="chb-label">建筑院</label>
+                        <input type="radio" name="academy" value="tumu" id="tumu" class="re-radio">
+                        <label for="tumu" class="chb-label">土木院</label>
+                        <input type="radio" name="academy" value="xinxi" id="xinxi" class="re-radio">
+                        <label for="xinxi" class="chb-label">信息院</label>
+                        <input type="radio" name="academy" value="cailiao" id="cailiao" class="re-radio">
+                        <label for="cailiao" class="chb-label">材料院</label>
+                        <input type="radio" name="academy" value="huanjing" id="huanjing" class="re-radio">
+                        <label for="huanjing" class="chb-label">环境院</label>
+                        <input type="radio" name="academy" value="sheji" id="sheji" class="re-radio">
+                        <label for="sheji" class="chb-label">设计院</label>
+                        <input type="radio" name="academy" value="wuli" id="wuli" class="re-radio">
+                        <label for="wuli" class="chb-label">物理院</label>
+                        <input type="radio" name="academy" value="shuxue" id="shuxue" class="re-radio">
+                        <label for="shuxue" class="chb-label">数学院</label>
+                        <input type="radio" name="academy" value="jingji" id="jingji" class="re-radio">
+                        <label for="jingji" class="chb-label">经济院</label>
+                        <input type="radio" name="academy" value="jinrong" id="jinrong" class="re-radio">
+                        <label for="jinrong" class="chb-label">金融院</label>
+                        <input type="radio" name="academy" value="waiyuan" id="waiyuan" class="re-radio">
+                        <label for="waiyuan" class="chb-label">外院</label>
+                        <input type="radio" name="academy" value="faxue" id="faxue" class="re-radio">
+                        <label for="faxue" class="chb-label">法学院</label>
+                        <input type="radio" name="academy" value="xinying" id="xinying" class="re-radio">
+                        <label for="xinying" class="chb-label">新影院</label>
+                        <input type="radio" name="academy" value="gongguan" id="gongguan" class="re-radio">
+                        <label for="gongguan" class="chb-label">工管院</label>
+                        <input type="radio" name="academy" value="tiyu" id="tiyu" class="re-radio">
+                        <label for="tiyu" class="chb-label">体育院</label>
+                        <input type="radio" name="academy" value="wenxue" id="wenxue" class="re-radio">
+                        <label for="wenxue" class="chb-label">文学院</label>
+                        <input type="radio" name="academy" value="makesi" id="makesi" class="re-radio">
+                        <label for="makesi" class="chb-label">马克思主义院</label>
+                        <input type="radio" name="academy" value="jiaoyu" id="jiaoyu" class="re-radio">
+                        <label for="jiaoyu" class="chb-label">教育研究院</label>
+                        <input type="radio" name="academy" value="yuelu" id="yuelu" class="re-radio">
+                        <label for="yuelu" class="chb-label">岳麓书院</label>
+                        <input type="radio" name="academy" value="all4" id="all4" class="re-radio">
+                        <label for="all4" class="chb-label">全部</label>
+                    </main>
+                </span>
+                <br>
+                <input type="submit" value="索引" class="big-bt big-bt-1">
+            </form>
+        </section>
+        <div class="space"></div>
+    </main>
+    <footer class="pg-foot">
+        <div><img src="..\images\qnxg.svg" alt="千年弦歌" width="auto" height="40px"></div>
+        <div><a href="#">1000.hnu.cn</a></div>
+        <div>
+            <span><a href="#">弦歌主站</a></span>
+            <span><a href="#">后台系统</a></span>
+            <span><a href="#">湖大文库</a></span>
+            <span><a href="#">加入我们</a></span>
+        </div>
+    </footer>
+</body>
+</html>
